@@ -9,25 +9,8 @@ var phase = Obj_Phase_Controller.phase;
 /// @DnDVersion : 1
 /// @DnDHash : 365429E6
 /// @DnDArgument : "var" "ammo_amount"
-/// @DnDArgument : "value" "round(phase * 1.5)"
-var ammo_amount = round(phase * 1.5);
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 53FD3991
-/// @DnDArgument : "var" "ammo_amount"
-/// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "3"
-if(ammo_amount < 3)
-{
-	/// @DnDAction : YoYo Games.Common.Temp_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 72713C81
-	/// @DnDParent : 53FD3991
-	/// @DnDArgument : "var" "ammo_amount"
-	/// @DnDArgument : "value" "3"
-	var ammo_amount = 3;
-}
+/// @DnDArgument : "value" "round(phase * 3)"
+var ammo_amount = round(phase * 3);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

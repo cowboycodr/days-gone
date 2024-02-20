@@ -15,9 +15,9 @@ repeat(phase * 2)
 
     var zombie = instance_create_layer(zx, zy, "Instances", Obj_Zombie);
     
-    zombie.zombie_speed = random_range(phase / 20, phase / 15);
+    zombie.zombie_speed = random_range(phase / 40, phase / 15);
     
-    if (zombie.zombie_speed > 2)
+    if (zombie.zombie_speed >= 2)
     {
         zombie.zombie_speed = 2;
     }

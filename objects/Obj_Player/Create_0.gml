@@ -15,19 +15,22 @@ cursor_sprite = crosshair;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 580DA428
-/// @DnDInput : 5
+/// @DnDInput : 6
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "3"
 /// @DnDArgument : "expr_2" "8"
 /// @DnDArgument : "expr_3" "false"
 /// @DnDArgument : "expr_4" "false"
+/// @DnDArgument : "expr_5" "false"
 /// @DnDArgument : "var" "player_speed"
 /// @DnDArgument : "var_1" "ammo"
 /// @DnDArgument : "var_2" "player_health"
 /// @DnDArgument : "var_3" "zombie_cooldown"
 /// @DnDArgument : "var_4" "walking_vertical"
+/// @DnDArgument : "var_5" "walking_horizontal"
 player_speed = 1;
 ammo = 3;
 player_health = 8;
 zombie_cooldown = false;
 walking_vertical = false;
+walking_horizontal = false;

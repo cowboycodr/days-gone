@@ -6,8 +6,12 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0B4A59CE
+/// @DnDInput : 2
+/// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "var" "phase"
+/// @DnDArgument : "var_1" "zombie_sound_cooldown"
 phase = 0;
+zombie_sound_cooldown = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

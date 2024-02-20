@@ -67,8 +67,8 @@ if(dead == false)
 			/// @DnDArgument : "var" "chance"
 			/// @DnDArgument : "var_temp" "1"
 			/// @DnDArgument : "type" "1"
-			/// @DnDArgument : "max" "Obj_Phase_Controller.phase / 2"
-			var chance = floor(random_range(0, Obj_Phase_Controller.phase / 2 + 1));
+			/// @DnDArgument : "max" "ceil(Obj_Phase_Controller.phase / 3)"
+			var chance = floor(random_range(0, ceil(Obj_Phase_Controller.phase / 3) + 1));
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
