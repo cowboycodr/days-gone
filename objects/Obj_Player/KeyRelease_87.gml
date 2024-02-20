@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 364FA9F5
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "walking_vertical"
+walking_vertical = false;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 413E4652

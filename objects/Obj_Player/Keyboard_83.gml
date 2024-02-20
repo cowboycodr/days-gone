@@ -3,6 +3,13 @@
 /// @DnDHash : 04FEAA86
 image_speed = 1;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2C4E90A4
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "walking_vertical"
+walking_vertical = true;
+
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 776D1C6E

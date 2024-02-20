@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4613A397
-/// @DnDArgument : "expr" "Obj_Phase_Controller.phase / 5"
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "var" "zombie_health"
-zombie_health = Obj_Phase_Controller.phase / 5;
+/// @DnDArgument : "var_1" "zombie_speed"
+zombie_health = 1;
+zombie_speed = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

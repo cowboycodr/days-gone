@@ -11,6 +11,13 @@ image_speed = 1;
 /// @DnDArgument : "instvar" "14"
 var sprite = sprite_index;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7647CD49
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "walking_vertical"
+walking_vertical = true;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 68A3ED8E

@@ -19,14 +19,23 @@ var sprite = sprite_index;
 /// @DnDArgument : "value" "Walk_Right"
 if(!(sprite == Walk_Right))
 {
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0B8F9F47
+	/// @DnDHash : 2B6927B7
 	/// @DnDParent : 70708E6E
-	/// @DnDArgument : "spriteind" "Walk_Right"
-	/// @DnDSaveInfo : "spriteind" "Walk_Right"
-	sprite_index = Walk_Right;
-	image_index = 0;
+	/// @DnDArgument : "var" "walking_vertical"
+	/// @DnDArgument : "value" "false"
+	if(walking_vertical == false)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 0B8F9F47
+		/// @DnDParent : 2B6927B7
+		/// @DnDArgument : "spriteind" "Walk_Right"
+		/// @DnDSaveInfo : "spriteind" "Walk_Right"
+		sprite_index = Walk_Right;
+		image_index = 0;
+	}
 }
 
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point

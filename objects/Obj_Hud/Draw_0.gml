@@ -56,8 +56,8 @@ if(bullet_count > 4)
 /// @DnDVersion : 1
 /// @DnDHash : 12702A49
 /// @DnDArgument : "var" "shell_offset"
-/// @DnDArgument : "value" "22"
-var shell_offset = 22;
+/// @DnDArgument : "value" "34"
+var shell_offset = 34;
 
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
